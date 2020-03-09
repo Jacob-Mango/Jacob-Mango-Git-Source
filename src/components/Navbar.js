@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import React from 'react';
 
 import './Navbar.css';
 
@@ -8,7 +7,6 @@ import NavbarLink from './NavbarLink';
 class Navbar extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {brand: "Ford"};
 	}
 
 	render() {
